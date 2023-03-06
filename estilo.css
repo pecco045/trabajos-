@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.row {
+    height: 1000px;
+}
+
+.col-5 {
+    padding-top: 380px;
+    background-color: #F6E1C3;
+    color: black;
+
+}
+
+
+.col-7 {
+    padding-top: 380px;
+    background-color: #E9A178;
+    color: black;
+    padding-left: 20%;
+
+}
+
+.cabecera {
+    position: absolute;
+    z-index: 900;
+    width: 110%;
+    height: 350px;
+    transform: rotate(-10deg);
+    box-shadow: 0 5px 5px 5px rgba(231, 88, 36, 0.979);
+    margin-left: -45px;
+    margin-top: -160px;
+    background-color: #d36f35;
+
+}
+.stickyCabecera{
+    
+    position: fixed;
+}
+.stickyTarjeta{
+    transform: rotate(60deg); 
+    position: fixed;
+}
+
+.card {
+    position:absolute;
+    z-index: 910;
+    margin-left: 250px;
+    margin-top: 150px;
+    height: 150px;
+    background-color: transparent;
+    border-color: transparent;
+    transform: rotate(10deg);
+  }
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.card-text {
+
+    font-size: 1.3em;
+
+}
+
+.col-md-4>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 900px;
+    box-shadow: 5px 5px 5px 0px rgba(117, 38, 9, 0.979);
+}
+
+.alineacion_datos {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 60px;
+    text-align: left;
+}
+
+.alineacion_datos p{
+    width: 100%;
+}
+
+.col-5 img {
+    width: 30px;
+    height: 30px;
+    margin-top: -8;
+}
+
+.alineacion_informacion {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 60px;
+    text-align: left;
+
+}
+
+.row .col-5 h4 {
+    background-color: #E9A178;
+
+}
+
+.row .col-7 h2 {
+    background-color: #F6E1C3;
+}
+
+
+@media only screen and (max-width: 1224px) {
+    .card{
+        margin-top: 190px;
+
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    body{
+       font-size: 0.8em;
+
+    }
+    .card img {
+        width:80%;
+        height:80%;
+    }
+  }
+
+  @media only screen and (max-width: 765px) {
+       .card img {
+        width:70px;
+        height:70px;
+        margin-left: 50px;
+    }
+    
+  }
